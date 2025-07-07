@@ -3,6 +3,8 @@ namespace Calculations.Test
     public class CalculatorTest
     {
         [Fact]
+        [Trait("Owner","Daniel")]
+        [Trait("Category","Calculator")]
         public void Add_Given1And2_Return3()
         {
             //arrange
@@ -16,6 +18,8 @@ namespace Calculations.Test
         }
 
         [Fact]
+        [Trait("Owner","Daniel")]
+        [Trait("Category","Calculator")]
         public void Add_Given2DecimalValues_ReturnsDecimal()
         {
             //arrange

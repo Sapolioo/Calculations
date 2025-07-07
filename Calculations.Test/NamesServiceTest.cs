@@ -9,6 +9,8 @@ namespace Calculations.Test
     public class NamesServiceTest
     {
         [Fact]
+        [Trait("Owner", "Daniel")]
+        [Trait("Category", "NameService")]
         public void MakeFullName_GivenFirstNameAndLastName_StartWithFirstName()
         {
             //arrange
@@ -22,6 +24,8 @@ namespace Calculations.Test
         }
 
         [Fact]
+        [Trait("Owner", "Daniel")]
+        [Trait("Category", "NameService")]
         public void MakeFullName_GivenFirstNameAndLastName_ContainsFirstName()
         {
             //arrange
@@ -35,6 +39,8 @@ namespace Calculations.Test
         }
 
         [Fact]
+        [Trait("Owner", "Daniel")]
+        [Trait("Category", "NameService")]
         public void MakeFullName_GivenFirstNameAndLastName_RegexTest()
         {
             //arrange

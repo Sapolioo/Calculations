@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Calculations
 {
+    
     public class NamesService
     {
         public string MakeFullName(string firstName, string lastName) => $"{firstName} {lastName}";
